@@ -9,26 +9,46 @@
  */
 public class Bank {
 
-    public String bankName;
+    /** declare variable balance;
+     *
+     */
+    private double balance;
 
-    public Bank() {
+    /**
+     *
+     /** declare variable bankName;
+
+     */
+
+    private String bankName;
+
+    /**
+     *
+     */
+    private Bank() {
         bankName = "Illini Bank";
+
     }
+
+
 
     /**
      * Withdraw money from an account.
      * <p>
      * Subtracts the amount of money from bank account's balance. Returns true if transaction is
-     * successful, false otherwise.
+     * successful, false otherwise
      *
      * @param bankAccount to withdraw money from.
      * @param amount to withdraw (double)
      * @return boolean
      */
-    public boolean withdrawMoney(final BankAccount bankAccount, final double amount) {
+
+    private boolean withdrawMoney(final BankAccount bankAccount, final double amount) {
         /*
          * Implement this function
          */
+       balance = balance - amount;
+
     }
 
     /**

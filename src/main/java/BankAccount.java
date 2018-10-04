@@ -13,23 +13,59 @@ public class BankAccount {
      * You may want to use this to distinguish between different kinds of accounts.
      */
     public enum BankAccountType {
+        /**
+         * hddhdwdi
+          */
         CHECKINGS,
+        /**
+         * jdnwd
+         */
         SAVINGS,
+        /**
+         * hdedhwid
+         */
         STUDENT,
+        /**
+         * bdjbwjdwb
+         */
         WORKPLACE
     }
 
+    /**
+     * jded
+     */
     private int accountNumber;
-    public BankAccountType accountType;
+    /**
+     * hdehdihdi
+     */
+    private BankAccountType accountType;
+    /**
+     * ncwfekf
+     */
     private double accountBalance;
+    /**
+     * dhuhdwidw
+     */
     private String ownerName;
-    public double interestRate;
+    /**
+     * ujdhwhdiw
+     */
+    private double interestRate;
+    /**jwhdwd
+     *
+     */
     private double interestEarned;
 
+    /**
+     * Creates a bank account.
+     * @param name is the name
+     * @param accountCategory is the category
+     */
     public BankAccount(final String name, final BankAccountType accountCategory) {
         /*
          * Implement this function
          */
+
     }
 
     /*
